@@ -1,0 +1,130 @@
+body {
+  font-family: sans-serif !important;
+}
+img {
+  width: 100%;
+}
+.carousel-inner .carousel-item {
+  max-height: 450px;
+}
+.carousel-caption.one {
+  right: 0;
+  top: 50%;
+  transform: translate(40%, -50%);
+}
+.carousel-caption.two,
+.three {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.fa-sharp.fa-solid {
+  text-shadow: 2px 2px 4px rgba(121, 121, 121, 0.5);
+}
+.row {
+  margin: 0;
+}
+.txt--edit {
+  line-height: 20px;
+  font-size: small;
+}
+.paralax {
+  background-image: url(./images/lights.jpg);
+  background-repeat: repeat-y;
+  background-position: top;
+  background-size: 110%;
+  background-attachment: fixed;
+}
+.bg--modal {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.74)),
+    url("./images/media.jpg");
+  background-repeat: repeat-y;
+  background-position: center;
+  background-size: 110%;
+  background-attachment: fixed;
+}
+.bg--modal iframe {
+  height: 250px;
+}
+.bg--dark {
+  background-color: black;
+}
+.bg--red {
+  background-color: red;
+}
+.navbar-nav.ml-auto .active {
+  border-left: 2px solid white;
+}
+.navbar-nav.ml-auto a {
+  padding-left: 15px;
+}
+nav {
+  padding-left: 2px !important;
+  padding-right: 2px !important;
+}
+.hr--edit {
+  border: inset 1px black;
+  margin-left: -3px;
+  padding-right: 3px;
+}
+
+.navbar-toggler.mr-3 {
+  border: none;
+}
+.navbar-brand.text-uppercase.ml-3 {
+  color: rgb(141, 141, 141);
+}
+.color--white {
+  color: white;
+}
+.carousel-indicators li {
+  width: 25px;
+  height: 1px;
+  border: 2px solid white;
+  background-color: black;
+}
+.carousel-indicators .active {
+  background-color: #ffffff;
+  height: 2px;
+  border-radius: 25%;
+}
+header {
+  background-image: url(./images/image1.jpg);
+  height: 400px;
+  background-attachment: fixed;
+}
+.about--header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#img--absolute {
+  margin-top: -100px;
+}
+.list-group-item:first-child {
+  border-top-right-radius: 0px !important;
+  border-top-left-radius: 0px !important;
+}
+.bg--light-grey {
+  background-color: #f5f5f5;
+}
+.bg--ligh-black {
+  background-color: #212121;
+}
+@media (min-width: 1024px) {
+  .navbar-nav.ml-auto li {
+    margin-left: 10px;
+  }
+
+  #img--absolute {
+    padding-right: 50px;
+  }
+}
+@media (min-width: 768px) {
+  .input-group.mx-auto input {
+    width: 150px;
+  }
+}
+@media (min-width: 425px) {
+}
